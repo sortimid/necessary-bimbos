@@ -27,9 +27,9 @@ tw-passage {
 	text-align: justify;
 }
 
-/*tw-sidebar {
+tw-sidebar {
   	display: none;
-}*/
+}
 
 .hidden {
 	display: none;
@@ -97,6 +97,11 @@ img.left {
 
 
 
+
+
+
+
+
 </style><script role="script" id="twine-user-script" type="text/twine-javascript">var _state = State;
 function saveVars (list) {
 	if (!window.localStorage) {
@@ -128,11 +133,84 @@ window.setup = window.setup || {};
 setup.saveVars = saveVars;
 setup.loadVars = loadVars;
 
-function preload(arrayOfImages) {
-	$(arrayOfImages).each(function(){
-		(new Image()).src = this;
-	});
-}
+var preload = [
+	"images/1.jpg",
+	"images/4.jpg",
+	"images/5.jpg",
+	"images/6.jpg",
+	"images/7.jpg",
+	"images/10.jpg",
+	"images/11A.jpg",
+	"images/11B.jpg",
+	"images/12.jpg",
+	"images/14A.jpg",
+	"images/14B.jpg",
+	"images/15A.jpg",
+	"images/15B.jpg",
+	"images/16.jpg",
+	"images/19.jpg",
+	"images/20.jpg",
+	"images/22.jpg",
+	"images/23.jpg",
+	"images/24.png",
+	"images/25.jpg",
+	"images/26.jpg",
+	"images/27.jpg",
+	"images/28A.jpg",
+	"images/28B.jpg",
+	"images/29.jpg",
+	"images/30.jpg",
+	"images/31.jpg",
+	"images/32.jpg",
+	"images/33.jpg",
+	"images/35.jpg",
+	"images/36.jpg",
+	"images/37.jpg",
+	"images/38.jpg",
+	"images/39.jpg",
+	"images/40.jpg",
+	"images/41.jpg",
+	"images/42.jpg",
+	"images/43.jpg",
+	"images/44.jpg",
+	"images/45.jpg",
+	"images/46.jpg",
+	"images/48.jpg",
+	"images/49D.jpg",
+	"images/49DA.jpg",
+	"images/49T.jpg",
+	"images/49TA.jpg",
+	"images/50.jpg",
+	"images/51.jpg",
+	"images/53.jpg",
+	"images/54.jpg",
+	"images/55.jpg",
+	"images/58.jpg",
+	"images/59.jpg",
+	"images/60.jpg",
+	"images/61.jpg",
+	"images/64.jpg",
+	"images/65.jpg",
+	"images/67A.jpg",
+	"images/67B.jpg",
+	"images/68A.jpg",
+	"images/68B.jpg",
+	"images/69.jpg",
+	"images/70.jpg",
+	"images/71.jpg",
+	"images/73.jpg",
+	"images/74.jpg"
+];
+
+window._ImageCache = preload.map(function (url) {
+	var image = document.createElement('img');
+	image.src = url;
+	return image;
+});
+
+
+
+
 
 
 
@@ -444,7 +522,7 @@ He wasn’t that different. Lewis felt the first rush. “I’m about to cum,”
 
 “So you’ll come to the mall with me?” she said. 
 
-[[“Sure!”-&gt;11 Go to the Mall]]</tw-passagedata><tw-passagedata pid="12" name="11 Go to the Mall" tags="" position="329,1518" size="100,100">&lt;img class=&quot;left fifty&quot; src=&quot;images/11A.jpg&quot; /&gt;What the fuck was going on? Lewis wasn’t stupid, and he wasn’t prone to flights of delusion. He’d changed things. He’d changed his girlfriend. 
+[[“Sure!”-&gt;11 Go to the Mall]]</tw-passagedata><tw-passagedata pid="12" name="11 Go to the Mall" tags="" position="329,1518" size="100,100">&lt;img class=&quot;left narrow&quot; src=&quot;images/11A.jpg&quot; /&gt;What the fuck was going on? Lewis wasn’t stupid, and he wasn’t prone to flights of delusion. He’d changed things. He’d changed his girlfriend. 
 
 
 Even sitting next to him in a car, there were subtle differences to his previous girlfriend. Old Amanda didn’t own a bright yellow skirt and lace-knit black top, and she’d never wear lipstick just to go to the mall. She didn’t immediately turn on Lana Del Rey. Usually she had Lewis drive. He’d changed her to like blowjobs, and that wasn’t just flicking some switch marked ‘blowjobs’ in her head. A girl who liked delivering blowjobs liked wine-red lipstick and liked it all the time. 
@@ -468,7 +546,7 @@ Amanda laughed. “Those guys were awful. They were all in community college and
 How much power did he have? Something small, he needed to do something small. Just to see what this was, what sort of control he had. Lewis concentrated on her lipstick -- it was hard not to. It was obviously a promise of future blowjobs. He willed it pink, pure pink, and blinked. 
 
 
-It took almost no effort at all. He even felt better. And just like that, Amanda’s lipstick was bright pink. 
+&lt;img class=&quot;right narrow&quot; src=&quot;images/11B.jpg&quot; /&gt;It took almost no effort at all. He even felt better. And just like that, Amanda’s lipstick was bright pink. 
 
 
 Nothing else had ch-- but no. Now the speakers played teeny-bop sugar pop, and Amanda wore a tight shirt with a smiling yellow sun on it, with a pair of khaki shorts. Of course -- that was the kind of girl who wore pink lipstick to the mall. She reached up to twirl her hair. That was new too. 
@@ -476,7 +554,6 @@ Nothing else had ch-- but no. Now the speakers played teeny-bop sugar pop, and A
 
 He couldn’t use this anymore. It was unethical, immoral, dangerous. 
 
-&lt;img class=&quot;right fifty&quot; src=&quot;images/11B.jpg&quot; /&gt;
 
 “My hand is still sticky,” she said, in a voice that was up an octave. She winked at him and licked it. 
 
@@ -865,7 +942,7 @@ Lou could feel a headache coming on. It’d been at least two hours since she’
 
 Paul’s dick was very nice. They tended to be. That was Lou’s specialty. She had an unerring talent for picking out boys with huge cocks. They’d gone to the library not long ago, and she’d walked around, pointed to a heavyset computer help-desk guy, and said “that man has the biggest dick I’ve ever seen.” And he had. 
 
-&lt;img class=&quot;wide&quot; src=&quot;images/24.jpg&quot; /&gt;
+&lt;img class=&quot;wide&quot; src=&quot;images/24.png&quot; /&gt;
 
 The headache backed away once Lou had a dick in her mouth and three fingers up inside of her. Mandy waited, gracious as ever. She shuddered with an orgasm and let the cock slip out of her mouth, where Mandy picked it up. Shoot, she’d needed a load in her hair. But at least her head felt nice. 
 
@@ -1130,7 +1207,9 @@ Lewis squeezed his eyes shut. There was no stopping. The headache went from bold
 
 
 There was a wet pop noise. His eyes opened just before Lewis’ head exploded, spewing red chunks halfway across the mall, all the way to the food court.
+
 &lt;img class=&quot;wide&quot; src=&quot;images/29.jpg&quot; /&gt;
+
 Ending 3 of 12: Bad Ending(set: $ending3 to 1)(display: &quot;Ending Footer&quot;)</tw-passagedata><tw-passagedata pid="31" name="32 Get More Girls" tags="" position="329,2428" size="100,100">&lt;img class=&quot;right fifty&quot; src=&quot;images/32.jpg&quot; /&gt;Lewis laughed. It was just so simple and fun. Everything in the entire world could make a girl into a horny bimbo, and everything was. 
 
 
@@ -2668,7 +2747,7 @@ Her legs were limp, but they worked enough to draw closer to him. All she could 
 “It HAS been a challenge not fucking you, all this time,” Lewis conceded. “Ordering me around. Not that I’m ungrateful. But… maybe you want a vacation from all this, right? A little vacation from thinking?”
 
 
-‘Will you… still.. Help the world? Lewis” Carrie managed. She was so close to it. It smelled good. 
+‘Will you… still… Help the world? Lewis” Carrie managed. She was so close to it. It smelled good. 
 
 
 “Maybe. And it’s Master. Climb aboard. The other girls are on their way.” 
@@ -3155,8 +3234,7 @@ Lewis chuckled. “Not for the wedding. Do you even remember? You had a problem 
 
 &lt;img class=&quot;wide&quot; src=&quot;images/74.jpg&quot; /&gt;
 
-Ending 12 of 12: Happily Ever After(set: $ending12 to 1)(display: &quot;Ending Footer&quot;)</tw-passagedata><tw-passagedata pid="72" name="Start Menu" tags="" position="397,21" size="100,100">&lt;h2&gt;Necessary Bimbos&lt;/h2&gt;
-&lt;h3&gt;By Limerick &amp; Sortimid&lt;/h3&gt;
+Ending 12 of 12: Happily Ever After(set: $ending12 to 1)(display: &quot;Ending Footer&quot;)</tw-passagedata><tw-passagedata pid="72" name="Start Menu" tags="" position="397,21" size="100,100">&lt;img class=&quot;wide&quot; src=&quot;images/logo.jpg&quot; alt=&quot;Necessary Bimbos, by Limerick and Sortimid&quot; /&gt;
 
 The content of this story is intended for adults only and may include pictures and materials that some viewers find offensive. If you are under the age of 18, if such material offends you or if it is illegal to view such material in your community please stop reading here.
 
